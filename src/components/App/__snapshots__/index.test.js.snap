@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`changes bg color 1`] = `
+<div
+  className="container"
+  style={
+    Object {
+      "background": "rgba(221,221,221,0.5)",
+    }
+  }
+>
+  <div
+    className="autoselect"
+  >
+    <div
+      className="inputContainer"
+    >
+      <input
+        className="autoselectInput"
+        onChange={[Function]}
+        type="text"
+      />
+      <ul
+        className="options"
+      />
+    </div>
+    <button
+      className="applyBtn"
+      onClick={[Function]}
+    >
+      Apply
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders without crashing and match snapshoot 1`] = `
+<div
+  className="container"
+  style={
+    Object {
+      "background": "rgba(0,0,0,0.5)",
+    }
+  }
+>
+  <div
+    className="autoselect"
+  >
+    <div
+      className="inputContainer"
+    >
+      <input
+        className="autoselectInput"
+        onChange={[Function]}
+        type="text"
+      />
+      <ul
+        className="options"
+      />
+    </div>
+    <button
+      className="applyBtn"
+      onClick={[Function]}
+    >
+      Apply
+    </button>
+  </div>
+</div>
+`;

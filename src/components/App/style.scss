@@ -1,0 +1,48 @@
+@import '~shared/styles/index.scss';
+
+* {
+  box-sizing: border-box;
+  transition: all 1s;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.autoselect {
+  display: flex;
+  position: relative;
+  top: -100px;
+  width: 500px;
+  max-width: 100vw;
+}
+
+.applyBtn {
+  height: 50px;
+}
+
+.autoselectInput {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.inputContainer {
+  width: 100%;
+}
+
+.suggestion {
+  width: 100%;
+  border: none;
+}
+
+.options {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
